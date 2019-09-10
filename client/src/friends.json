@@ -1,86 +1,199 @@
-[
-  {
+[{
     "id": 1,
-    "name": "SpongeBob",
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "name": "Abra",
+    "image": "/images/abra.png",
+    "clicked": false
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "Bulbasaur",
+    "image": "/images/bulbasaur.png",
+    "clicked": false
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "name": "Butterfree",
+    "image": "/images/butterfree.png",
+    "clicked": false
   },
   {
     "id": 4,
-    "name": "Dexter",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "name": "Charizard",
+    "image": "/images/charizard.png",
+    "clicked": false
   },
   {
     "id": 5,
-    "name": "Courage",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "name": "Chikorita",
+    "image": "/images/chikorita.png",
+    "clicked": false
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "name": "Delibird",
+    "image": "/images/delibird.png",
+    "clicked": false
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
-    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "name": "Ditto",
+    "image": "/images/ditto.png",
+    "clicked": false
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
-    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "name": "Electivire",
+    "image": "/images/electivire.png",
+    "clicked": false
   },
   {
     "id": 9,
-    "name": "Tommy Pickles",
-    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-    "occupation": "Adventurer",
-    "location": "California"
+    "name": "Gardevoir",
+    "image": "/images/gardevoir.png",
+    "clicked": false
   },
   {
     "id": 10,
-    "name": "Rocko",
-    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
+    "name": "Gastly",
+    "image": "/images/gastly.png",
+    "clicked": false
   },
   {
     "id": 11,
-    "name": "Captain Planet",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "name": "Jigglypuff",
+    "image": "/images/jigglypuff.png",
+    "clicked": false
   },
   {
     "id": 12,
-    "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "name": "Lapras",
+    "image": "/images/lapras.png",
+    "clicked": false
+  },
+  {
+    "id": 13,
+    "name": "Lilligant",
+    "image": "/images/lilligant.png",
+    "clicked": false
+  },
+  {
+    "id": 14,
+    "name": "Machoke",
+    "image": "/images/machoke.png",
+    "clicked": false
+  },
+  {
+    "id": 15,
+    "name": "Ninetales",
+    "image": "/images/ninetales.png",
+    "clicked": false
+  },
+  {
+    "id": 16,
+    "name": "Oddish",
+    "image": "/images/oddish.png",
+    "clicked": false
+  },
+  {
+    "id": 17,
+    "name": "Pikachu",
+    "image": "/images/pikachu.png",
+    "clicked": false
+  },
+  {
+    "id": 18,
+    "name": "Poliwag",
+    "image": "/images/poliwag.png",
+    "clicked": false
+  },
+  {
+    "id": 19,
+    "name": "Primarina",
+    "image": "/images/primarina.png",
+    "clicked": false
+  },
+  {
+    "id": 20,
+    "name": "Raichu",
+    "image": "/images/raichu.png",
+    "clicked": false
+  },
+  {
+    "id": 21,
+    "name": "Salamance",
+    "image": "/images/salamance.png",
+    "clicked": false
+  },
+  {
+    "id": 22,
+    "name": "Slowbro",
+    "image": "/images/slowbro.png",
+    "clicked": false
+  },
+  {
+    "id": 23,
+    "name": "Spiritomb",
+    "image": "/images/spiritomb.png",
+    "clicked": false
+  },
+  {
+    "id": 24,
+    "name": "Squirtle",
+    "image": "/images/squirtle.png",
+    "clicked": false
+  },
+  {
+    "id": 25,
+    "name": "Suicune",
+    "image": "/images/suicune.png",
+    "clicked": false
+  },
+  {
+    "id": 26,
+    "name": "Sylveon",
+    "image": "/images/sylveon.png",
+    "clicked": false
+  },
+  {
+    "id": 27,
+    "name": "Tapulele",
+    "image": "/images/tapulele.png",
+    "clicked": false
+  },
+  {
+    "id": 28,
+    "name": "Vanilluxe",
+    "image": "/images/vanilluxe.png",
+    "clicked": false
+  },
+  {
+    "id": 29,
+    "name": "Vaporeon",
+    "image": "/images/vaporeon.png",
+    "clicked": false
+  },
+  {
+    "id": 30,
+    "name": "Venusaur",
+    "image": "/images/venusaur.png",
+    "clicked": false
+  },
+  {
+    "id": 31,
+    "name": "Wartortle",
+    "image": "/images/wartortle.png",
+    "clicked": false
+  },
+  {
+    "id": 32,
+    "name": "Charmander",
+    "image": "/images/charmander.png",
+    "clicked": false
+  },
+  {
+    "id": 33,
+    "name": "Garchomp",
+    "image": "/images/garchomp.png",
+    "clicked": false
   }
 ]
