@@ -19,17 +19,6 @@ ul {
     border-bottom: 6px solid black;
   }
   
-  #ash{
-    height: 300px;
-    position:absolute;
-    top: 110px;
-    left: 1050px
-  }
-  
-  #ash:hover{
-    transform: scale(1.1)
-  }
-  
   .jumbotron{
     background-image: url("/images/pokemon.gif");
     background-size: 100% 100%;
@@ -41,6 +30,17 @@ ul {
     margin:0;
     border-bottom: 10px solid darkblue;
   }
+
+  #ash{
+    height: 300px;
+    position:absolute;
+    top: 110px;
+    left: 1200px
+  }
+  
+  /* #ash:hover{
+    transform: scale(1.1)
+  } */
   
   .nav-item{
     color: #ffe066;
@@ -51,7 +51,6 @@ ul {
   }
 
   @media only screen and (max-width:1000px) {
-    #ash {
+    #ash, #hover {
     display: none;
-    }
-    }
+    }}

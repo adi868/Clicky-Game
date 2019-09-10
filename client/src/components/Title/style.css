@@ -8,9 +8,3 @@
   top: 190px;
   left: 500px
 }
-
-@media only screen and (max-width:1000px) {
-  #press, #ash {
-  display: none;
-  }
-  }
