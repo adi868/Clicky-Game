@@ -1,8 +1,16 @@
-.title {
-  width: 100%;
-  text-align: center;
-  font-size: 3rem;
-  text-decoration: underline;
-  color: #2A77AE;
-  margin-bottom: 50px;
+#hover {
+  color: #ffe066;
+  font-size: 30px;
+  font-family: 'Luckiest Guy', cursive;
+  letter-spacing: .5px;
+  text-shadow: -3px -3px 0 #0033cc, 3px -3px 0 #0033cc, -3px 3px 0 #0033cc, 3px 3px 0 #0033cc;
+  position:relative;
+  top: 190px;
+  left: 500px
 }
+
+@media only screen and (max-width:1000px) {
+  #press, #ash {
+  display: none;
+  }
+  }

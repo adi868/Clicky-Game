@@ -2,12 +2,16 @@ import React, { Component } from "react";
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import friends from "./friends.json";
+import friends from "./pokemon.json";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+  // Setting this.state.friends to the pokemon JSON array
   state = {
-    friends
+    friends,
+    score: 0,
+    highscore: 0,
   };
 
   removeFriend = id => {
@@ -17,11 +21,13 @@ class App extends Component {
     this.setState({ friends });
   };
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  // Map over this.state.friends and render a Pokemon Card component for each friend object
   render() {
     return (
+      <span>
+      <NavBar score={this.state.score} highscore={this.state.highscore}/>
+      <Title></Title>
       <Wrapper>
-        <Title>Clicky-Game</Title>
         {this.state.friends.map(friend => (
           <FriendCard
             removeFriend={this.removeFriend}
@@ -29,11 +35,13 @@ class App extends Component {
             key={friend.id}
             name={friend.name}
             image={friend.image}
+            clicked={friend.clicked}
           />
         ))}
       </Wrapper>
+      <Footer/>
+      </span>
     );
   }
 }
-
 export default App;
