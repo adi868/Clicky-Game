@@ -6,7 +6,7 @@ function NavBar(props) {
         <nav className="navbar sticky-top navbar-expand">
             <ul className="navbar-nav">
                 <li className="nav-item">
-                    <h1>Pokemon Clicky-Game</h1><span className="sr-only nav-link title">(current)</span>
+                    <h1>Pokémon Clicky-Game</h1><span className="sr-only nav-link title">(current)</span>
                 </li>
                 <li className="nav-item">
                     <h4 className={`nav-link ${props.colorStyle}`} >{props.mid}</h4>
