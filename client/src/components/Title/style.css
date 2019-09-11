@@ -26,6 +26,7 @@
   position:absolute;
   top: 44%;
   left: 54%;
+  outline: none;
 }
 
 #play:hover {

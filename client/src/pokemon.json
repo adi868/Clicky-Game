@@ -138,8 +138,8 @@
   },
   {
     "id": 24,
-    "name": "Squirtle",
-    "image": "/images/squirtle.png",
+    "name": "Garchomp",
+    "image": "/images/garchomp.png",
     "clicked": false
   },
   {
@@ -188,12 +188,6 @@
     "id": 32,
     "name": "Charmander",
     "image": "/images/charmander.png",
-    "clicked": false
-  },
-  {
-    "id": 33,
-    "name": "Garchomp",
-    "image": "/images/garchomp.png",
     "clicked": false
   }
 ]

@@ -22,7 +22,7 @@ class App extends Component {
       if (friend.id === id) {
         if (friend.clicked === false) {
           friend.clicked = true
-          if (this.state.score === 20) {
+          if (this.state.score === 14) {
             console.log("You Win!")
             this.youWin();
           } else {
@@ -62,7 +62,7 @@ class App extends Component {
   }
 
   youWin = () => {
-    this.setState({ highScore: 20 }, function () {
+    this.setState({ highScore: 15 }, function () {
       console.log(this.state.highScore);
     })
     this.state.friends.forEach(friends => {
