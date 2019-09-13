@@ -24,7 +24,7 @@ Hello Pokémon Masters (or masters-in-training)! Welcome to the Pokémon Clicky-
 * Bootstrap
 
 #### Application Organization:
-This application has its UI broken into components using React and follows a MVC paradigm. The components are as follows:
+This application has its UI broken into components using React. The components are as follows:
 * Title
 * NavBar
 * Wrapper
