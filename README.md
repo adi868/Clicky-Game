@@ -1,3 +1,3 @@
 # Clicky-Game
 
-![Deployed Game](/images/clicky-game.png)
+![Deployed Game](client/public/images/clicky-game.png)
