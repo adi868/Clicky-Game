@@ -68,7 +68,7 @@ class App extends Component {
     this.state.friends.forEach(friends => {
       friends.clicked = false;
     });
-    this.setState({ mid: "OMG! You're a Pokemon master :)" });
+    this.setState({ mid: "OMG! You Win! You're a Pokemon master :)" });
     this.setState({ score: 0 });
     this.setState({ colorStyle: "text-success" })
     return true;

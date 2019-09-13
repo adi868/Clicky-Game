@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.9" />
   <meta name="theme-color" content="#000000" />
   <meta name="adi868 Pokémon Clicker Game" content="Pokémon Clicky-Game" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -47,6 +47,7 @@
     function play(){
          var audio = document.getElementById("audio");
          audio.play();
+         document.getElementById("audio").loop = true;
                    }
   </script>
 </body>
