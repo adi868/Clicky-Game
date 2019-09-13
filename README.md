@@ -14,7 +14,7 @@ Hello Pokémon Masters (or masters-in-training)! Welcome to the Pokémon Clicky-
 1. Clone the complete repository from Github.
 2. Run `npm init` in the terminal. This will install the dependencies in the `package.json`. When that's done, you can run the application in the command line with `npm start`. This will open the link to the application at http://localhost:3000.
 
-#### Technology Used:
+### Technology Used:
 * React.js
 * HTML5
 * CSS3
