@@ -9,7 +9,7 @@
   left: 53%;
 }
 
-#play {
+#playBtn {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 15px;
@@ -29,6 +29,6 @@
   outline: none;
 }
 
-#play:hover {
+#playBtn:hover {
   background-color: #a5c0d1;
 }

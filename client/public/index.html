@@ -8,8 +8,6 @@
   <meta name="theme-color" content="#000000" />
   <meta name="adi868 Pokémon Clicker Game" content="Pokémon Clicky-Game" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <!-- Animate -->
-  <link rel="stylesheet" href="animate.min.css">
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
@@ -17,22 +15,15 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap" rel="stylesheet">
   <title>Pokémon Clicky-Game</title>
 </head>
 <body>
-  <!-- <div id="audioPlayer">
-          <audio controls>
-           <source src="/music/AzaleaTown.mp3" type="audio/mpeg">
-                      If you're reading this, the audio on this page isn't supported. ):
-         </audio>
-  </div> -->
 
-  <!-- <input type="button" id = "play" value="PLAY MUSIC" onclick="play()">
-  <audio id="audio" src="/music/AzaleaTown.mp3" ></audio> -->
-  <audio id="audio" src="/music/AzaleaTown.mp3" ></audio>
+  <input type="button" id="audioPlayer" value="PLAY MUSIC" onclick="play()" style="display:none"  >
+  <audio id="audio" src="music/AzaleaTown.mp3" style="display:none" ></audio>
 
   <div id="root"></div>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
@@ -43,16 +34,20 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
   <script>
+
     $(function () {
       $("#ash").popover({
         container: "body"
       });
     });
 
+    $(document).on("click","#playBtn",function(){
+      $("#audioPlayer").click()
+    })
     function play(){
          var audio = document.getElementById("audio");
-         audio.play();}
-     
+         audio.play();
+                   }
   </script>
 </body>
 </html>
