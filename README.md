@@ -14,6 +14,15 @@ Hello Pokémon Masters (or masters-in-training)! Welcome to the Pokémon Clicky-
 1. Clone the complete repository from Github.
 2. Run `npm init` in the terminal. This will install the dependencies in the `package.json`. When that's done, you can run the application in the command line with `npm start`. This will open the link to the application at http://localhost:3000.
 
+#### Technology Used:
+* React.js
+* HTML5
+* CSS3
+* Javascript
+* JSX
+* ES6
+* Bootstrap
+
 #### Application Organization:
 This application has its UI broken into components using React and follows a MVC paradigm. The components are as follows:
 * Title
@@ -46,15 +55,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
-
-#### Technology Used:
-* React.js
-* HTML5
-* CSS3
-* Javascript
-* JSX
-* ES6
-* Bootstrap
 
 #### Screenshot:
 ![Deployed Game](client/public/images/clicky-game.png)
