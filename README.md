@@ -19,7 +19,6 @@ Hello Pokémon Masters (or masters-in-training)! Welcome to the Pokémon Clicky-
 * HTML5
 * CSS3
 * Javascript
-* JSX
 * ES6
 * Bootstrap
 
